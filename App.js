@@ -1,0 +1,9 @@
+import { View, Text } from "react-native";
+import { SafeAreaView } from "react-native-web";
+import Home from "./screens/Home";
+
+export default function App() {
+  return (
+      <Home></Home>
+  );
+}
